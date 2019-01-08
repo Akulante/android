@@ -1,17 +1,15 @@
-Open Desire Project
-===================
 
 Getting Started
 ---------------
 
-To get started with Android/CyanogenMod, you'll need to get
+To get started with Android/LineageOS, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
+To initialize your local repository using the LineageOS trees, use a command like this:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-13.0
+    repo init -u git://github.com/LineageOS/android.git -b cm-13.0
     mkdir -p .repo/local_manifests
-    wget https://github.com/OpenDesireProject/android/raw/cm-13.0/local_manifest.xml -O .repo/local_manifests/local_manifest.xml
+    wget https://github.com/Akulante/android/raw/cm-13.0/local_manifest.xml -O .repo/local_manifests/local_manifest.xml
 
 Then to sync up:
 
@@ -23,4 +21,4 @@ To build:
     lunch
     mka bacon
 
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
+Please see the [LineageOS Wiki](http://wiki.lineageos.org/) for building instructions.
