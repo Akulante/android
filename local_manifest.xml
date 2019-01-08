@@ -5,7 +5,7 @@
   <remove-project name="LineageOS/android_bionic" />
   <remove-project name="LineageOS/android_build" />
   <remove-project name="LineageOS/android_frameworks_opt_telephony" />
-
+  <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
   <!-- Akulante -->
   <project path="bionic" name="Akulante/android_bionic" revision="cm-13.0" />
   <project path="build" name="Akulante/android_build" revision="cm-13.0">
